@@ -1,4 +1,4 @@
-FROM bipinkrish/file-converter:latest
+FROM bipinkrish/file-converter-bot:latest
 
 COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
